@@ -1,13 +1,24 @@
 Package: IMODtools
-Title: What the Package Does (One Line, Title Case)
+Title: IMODtools
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Arjan",
+           family = "Van Wachtendonk",
            role = c("aut", "cre"),
-           email = "first.last@example.com")
-Description: What the package does (one paragraph).
+           email = "arjan.van.wachtendonk@rhdhv.com")
+Description: Set of functions for post- and pre-processing of iMOD model data
 License: What license it uses
 Encoding: UTF-8
 LazyData: true
+Imports:
+  readr,
+  ggplot2,
+  sp,
+  rgdal,
+  ggrepel,
+  raster,
+  RColorBrewer,
+  ggsn,
+  colorRamps,
+  extrafont
 RoxygenNote: 6.1.1
